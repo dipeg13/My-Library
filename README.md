@@ -8,9 +8,9 @@ More information about Lagrange Polynomials:https://en.wikipedia.org/wiki/Lagran
 
 Libraries needed:
 
--matplotlib
+-Matplotlib
 
--numpy
+-Numpy
 
 
 # Euler's Method for Initial Value Problems for ODEs
@@ -25,9 +25,9 @@ More information about Euler's Method:https://en.wikipedia.org/wiki/Euler_method
 
 Libraries needed:
 
--matplotlib
+-Matplotlib
 
--numpy
+-Numpy
 
 
 # Newton's Method
@@ -42,3 +42,9 @@ More information about Newton's Method:https://en.wikipedia.org/wiki/Newton%27s_
 This is a method (rule) for numerical integration of a function f on an interval [a,b], given a, b and N (the number of discrimination).
 
 More information about Simpson's Rule:https://en.wikipedia.org/wiki/Simpson%27s_rule
+
+Libraries needed:
+
+-Numpy
+
+-Matplotlib (optional)
