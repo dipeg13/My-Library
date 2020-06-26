@@ -1,4 +1,4 @@
-# Lagrange-Polynomial
+# Lagrange Polynomial
 
 This is a method that returns the Lagrange Polynomial in an interval [a,b], given a, b, N (the number of discrimination) and the points.
 
@@ -11,3 +11,6 @@ Libraries needed:
 -matplotlib
 
 -numpy
+
+
+# Next Project
