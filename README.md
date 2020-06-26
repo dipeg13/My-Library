@@ -13,7 +13,7 @@ Libraries needed:
 -numpy
 
 
-# Euler Method for Initial Value problems for ODEs
+# Euler's Method for Initial Value problems for ODEs
 
 This is a method that finds (draws) the solution of an initial value problem in an interval [a,b], given a, b, N (the number of discrimination) and y_0 (the initial value).
 
