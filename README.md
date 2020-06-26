@@ -35,3 +35,10 @@ Libraries needed:
 This is a method that finds the approximation o a root of the equation f(x)=0. The derivative of f is needed and in case that there exist an x such that f'(x)=0, there is a high probability that this method won't work.
 
 More information about Newton's Method:https://en.wikipedia.org/wiki/Newton%27s_method
+
+
+# Simpson's Rule
+
+This is a method (rule) for numerical integration of a function f on an interval [a,b], given a, b and N (the number of discrimination).
+
+More information about Simpson's Rule:https://en.wikipedia.org/wiki/Simpson%27s_rule
