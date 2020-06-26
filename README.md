@@ -28,3 +28,10 @@ Libraries needed:
 -matplotlib
 
 -numpy
+
+
+# Newton's Method
+
+This is a method that finds the approximation o a root of the equation f(x)=0. The derivative of f is needed and in case that there exist an x such that f'(x)=0, there is a high probability that this method won't work.
+
+More information about Newton's Method:https://en.wikipedia.org/wiki/Newton%27s_method
