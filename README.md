@@ -55,3 +55,9 @@ Libraries needed:
 This is a method that computes numerically an integral based on closed Newton-Cotes formulas of n-th degree on the interval [a,b], given a, b, n (the degree of the formula) and N (the number of discrimination).
 
 Mor infromation about Newton-Cotes firmulas:https://en.wikipedia.org/wiki/Newton%E2%80%93Cotes_formulas
+
+Libraries needed:
+
+-Numpy
+
+-Matplotlib (optional)
