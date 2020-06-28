@@ -1,5 +1,4 @@
 import random
-    
 
 def ask_again():
     door = input("Hmmm... i dont't recognise that answer. Feed me again! ")
@@ -71,7 +70,3 @@ while key != "Y" and key != "N":
     key = ask_again()
 
 main(key)
-    
-    
-    
-    
