@@ -26,6 +26,5 @@ x_line = [min(x),max(x)]
 y_line = [yy(0), yy(10)]
 
 plt.plot(x_line , y_line)
-
 plt.plot(x,y,'ro')
 plt.show()
