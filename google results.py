@@ -13,6 +13,7 @@ def search():
     if req.status_code !=200:
         print("connection error")
     else:
+        final_list = []
         list_of_links = []
         soup = BeautifulSoup(req_con, "html.parser")
         results = []
@@ -22,8 +23,20 @@ def search():
                 list_of_links.append(links['href'].strip("/url?q="))
         for links in list_of_links:
             links = links[:links.index(flag)]
-            print(links)
+            final_list.append(links)
         print("Number of results: "+str(len(list_of_links)))
-        return list_of_links
-    
-search()
+        return final_list
+
+#sites returns the raw url of the sites found at search method    
+def sites():
+    sites_list = search()
+    final_list = []
+    for i in range(len(sites_list)):
+        if "https://" in sites_list[i]:
+            sites_list[i] = sites_list[i].split("https://")
+        elif "http://" in sites_list[i]:
+            sites_list[i] = sites_list[i].split("http://")
+        final_list.append(sites_list[i][1][:sites_list[i][1].index("/")])
+    for i in final_list:
+        print(i)
+    return final_list
