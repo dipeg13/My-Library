@@ -27,7 +27,7 @@ def search():
         print("Number of results: "+str(len(list_of_links)))
         return final_list
 
-#sites returns the raw url of the sites found at search method    
+#sites returns the raw url of the sites found at search method 
 def sites():
     sites_list = search()
     final_list = []
@@ -40,3 +40,13 @@ def sites():
     for i in final_list:
         print(i)
     return final_list
+
+#clean_sites returns a list with no doublicated sites and without google.com
+def clean_sites():
+    sites_list = sites()
+    cleaned_list = list(dict.fromkeys(sites_list))
+    print("Number of cleaned results: "+str(len(cleaned_list)))
+    if "www.google.com" in cleaned_list:cleaned_list.remove("www.google.com")
+    for i in cleaned_list:
+        print(i)
+    return cleaned_list
